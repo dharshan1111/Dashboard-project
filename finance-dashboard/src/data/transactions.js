@@ -1,0 +1,40 @@
+export const mockTransactions = [
+  { id: 1,  desc: 'Monthly salary',       amount: 85000, type: 'income',  category: 'Salary',        date: '2024-04-01' },
+  { id: 2,  desc: 'Apartment rent',        amount: 18000, type: 'expense', category: 'Utilities',     date: '2024-04-02' },
+  { id: 3,  desc: 'Grocery run',           amount: 3200,  type: 'expense', category: 'Food',          date: '2024-04-05' },
+  { id: 4,  desc: 'Freelance project',     amount: 22000, type: 'income',  category: 'Freelance',     date: '2024-04-08' },
+  { id: 5,  desc: 'Zomato orders',         amount: 1800,  type: 'expense', category: 'Food',          date: '2024-04-10' },
+  { id: 6,  desc: 'Uber rides',            amount: 1200,  type: 'expense', category: 'Transport',     date: '2024-04-12' },
+  { id: 7,  desc: 'Amazon shopping',       amount: 4500,  type: 'expense', category: 'Shopping',      date: '2024-04-14' },
+  { id: 8,  desc: 'Netflix subscription',  amount: 649,   type: 'expense', category: 'Entertainment', date: '2024-04-15' },
+  { id: 9,  desc: 'Doctor visit',          amount: 800,   type: 'expense', category: 'Health',        date: '2024-04-17' },
+  { id: 10, desc: 'Electricity bill',      amount: 2100,  type: 'expense', category: 'Utilities',     date: '2024-04-20' },
+  { id: 11, desc: 'Monthly salary',        amount: 85000, type: 'income',  category: 'Salary',        date: '2024-03-01' },
+  { id: 12, desc: 'Apartment rent',        amount: 18000, type: 'expense', category: 'Utilities',     date: '2024-03-02' },
+  { id: 13, desc: 'Grocery run',           amount: 2900,  type: 'expense', category: 'Food',          date: '2024-03-06' },
+  { id: 14, desc: 'Metro passes',          amount: 600,   type: 'expense', category: 'Transport',     date: '2024-03-10' },
+  { id: 15, desc: 'Birthday shopping',     amount: 6200,  type: 'expense', category: 'Shopping',      date: '2024-03-15' },
+  { id: 16, desc: 'Freelance work',        amount: 15000, type: 'income',  category: 'Freelance',     date: '2024-03-18' },
+  { id: 17, desc: 'Movie night',           amount: 900,   type: 'expense', category: 'Entertainment', date: '2024-03-20' },
+  { id: 18, desc: 'Pharmacy',              amount: 550,   type: 'expense', category: 'Health',        date: '2024-03-22' },
+  { id: 19, desc: 'Monthly salary',        amount: 85000, type: 'income',  category: 'Salary',        date: '2024-02-01' },
+  { id: 20, desc: 'Apartment rent',        amount: 18000, type: 'expense', category: 'Utilities',     date: '2024-02-02' },
+  { id: 21, desc: 'Grocery run',           amount: 3400,  type: 'expense', category: 'Food',          date: '2024-02-07' },
+  { id: 22, desc: 'Cab rides',             amount: 1500,  type: 'expense', category: 'Transport',     date: '2024-02-12' },
+  { id: 23, desc: 'Clothes shopping',      amount: 5800,  type: 'expense', category: 'Shopping',      date: '2024-02-18' },
+  { id: 24, desc: 'OTT bundle',            amount: 999,   type: 'expense', category: 'Entertainment', date: '2024-02-20' },
+];
+
+export const CATEGORY_COLORS = {
+  Food:          '#1D9E75',
+  Transport:     '#378ADD',
+  Shopping:      '#D85A30',
+  Entertainment: '#7F77DD',
+  Health:        '#BA7517',
+  Utilities:     '#888780',
+  Salary:        '#0F6E56',
+  Freelance:     '#185FA5',
+  Other:         '#D4537E',
+};
+
+export const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
